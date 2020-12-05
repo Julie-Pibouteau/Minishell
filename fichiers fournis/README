@@ -1,0 +1,64 @@
+Projet minishell
+################
+
+Contenu de l'archive
+####################
+
+analex.h analex.c:
+Module d'analyse lexicale pour minishell
+
+testlex.c:
+Code source du programme de test du module analex
+
+minishell.c:
+Fichier principal pour le minishell, à éditer.
+
+runtest.sh:
+Script shell pour l'exécution des tests.
+
+tests/xxx.ms:
+Fichier tests (contient des commandes minishell)
+
+tests/xxx.ms.sol:
+Solution du test xxx.ms, la première ligne contient le code de retour attendu,
+les ligne suivantes décrivent la sortie attendue.
+
+Le test est exécuté en faisant ./minishell < tests/xxx.ms
+Le test réussit si le code de retour est est le code attendu, et si l'affichage et l'affichage attendu.
+
+Makefile
+Fichier Makefile pour faciliter la compilation du projet.
+
+README:
+Ce fichier.
+
+Fichiers à modifier
+###################
+
+Vous n'avez besoin de modifier que le fichier minishell.c.
+
+Vous pouvez ajouter des tests dans le repertoire tests (vous êtes même
+encouragés à le faire), à condition d'avoir bien compris le
+fonctionnement du programme runtest.sh. 
+
+ATTENTION: NE MODIFIEZ PAS LES FICHIERS EXISTANTS SANS L'ACCORD PRÉALABLE D'UN RESPONSABLE DE L'UE.
+
+Compiler/tester
+###############
+
+Compiler testlex
+
+    make testlex
+
+Compiler minishell
+
+    make minishell
+
+Tester minishell
+
+    make test
+
+Auteur(s)
+#########
+
+À SPÉCIFIER
